@@ -1,5 +1,7 @@
 # glua
 
+**Forked version that runs on Debian 12**
+
 embed lua script language for Go
 
 go luajit glue,very very fast, support lua coroutine

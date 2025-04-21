@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 )
 
-// #cgo CFLAGS: -I/usr/local/include/luajit-2.1
-// #cgo LDFLAGS:  -L/usr/local/lib -lluajit -ldl -lm
+// #cgo CFLAGS: -I/usr/include/luajit-2.1
+// #cgo LDFLAGS:  -L/usr/lib/x86_64-linux-gnu -lluajit-5.1 -ldl -lm
 //#include "glua.h"
 import "C"
 
